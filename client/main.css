@@ -1,0 +1,260 @@
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      /*color: #f5f6f7;*/
+  }
+  .thumbnailFrame{
+    /*width: 300px; // or you could use percentage value for responsive layout*/
+    /*height: 500px;*/
+    /*overflow: auto;*/
+
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+    overflow: auto;
+
+  }
+  .thumbnailFrame img{
+    width: 250px;
+    height: 350px;
+    -webkit-filter: grayscale(40%);
+        -moz-filter:    grayscale(40%);
+        -ms-filter:     grayscale(40%);
+        -o-filter:      grayscale(40%);
+        filter: gray;
+
+}
+
+
+.thumbnailFrame h5 {
+
+   position: absolute;
+   top: 275px;
+   left: 0;
+   width: 100%;
+}
+
+.thumbnailFrame h5 span.spacer {
+   padding:0 5px;
+}
+.thumbnailFrame h5 span {
+   color: white;
+   font: 19px/45px Montserrat, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+
+
+
+/*.thumbnailFrame img:hover{
+  width: 250px;
+  height: 350px;
+  -webkit-filter: grayscale(70%);
+      -moz-filter:    grayscale(70%);
+      -ms-filter:     grayscale(50%);
+      -o-filter:      grayscale(50%);
+      filter: gray;
+}*/
+
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .margin1 {margin-bottom: 0px;}
+  .container-fluid.bg-1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+      background-image: url("adding-users.jpg");
+      letter-spacing: 2px;
+  }
+  .bg-2 {
+      background-color: white;
+      color: grey;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+      background-image: url("static-light.jpg");
+
+  }
+  .bg-4 {
+      /*background-color: #2f2f2f; Black Gray */
+      background-color: grey;
+      letter-spacing: 3px;
+      background-image: url("static-light.jpg");
+  }
+
+  .bg-5 {
+      color: #000000;
+      margin:0px;padding:0px;overflow:hidden
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .container-fluid.bg-2.text-center {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 3px;
+      background-image: url("static-light.jpg");
+
+  }
+  .navbar-nav {
+      width: 70%;
+      text-align: center;
+    }
+    .navbar-nav > li {
+      float: none;
+      display: inline-block;
+    }
+    .navbar-nav > li.navbar-right {
+      float: right !important;
+    }
+
+  .navbar-nav  li a:hover {
+      color: #FFA500 !important;
+      /*color: #1abc9c !important;*/
+  }
+
+
+/*for the moble nav bar*/
+/*.navbar-nav { width: 10%; text-align: left; }*/
+
+
+
+  /* CSS used here will be applied after bootstrap.css */
+
+.productbox {
+    position: relative;
+ border: 0px solid #ddd;
+border-radius: 4px;
+-webkit-transition: all .2s ease-in-out;
+}
+.col-centered{
+  float: none;
+    margin: 0 auto;
+}
+.caption {
+	padding:10px;
+	background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*max-width: 350px;*/
+    max-height: 40%;
+    overflow: hidden;
+  	font-size: 11px;
+  color: #FFF;
+
+}
+.finalprice {
+  font-size:15px;
+    color: #AAFCAE;
+}
+h3 {
+  margin-top: 0px;
+  color: white;
+  max-height: 30px;
+  font-weight: bold;
+}
+
+.container {
+     padding-right: 0; /*15px in bootstrap.css*/
+     padding-left: 0;  /*idem*/
+     margin-right: auto;
+     margin-left: auto;
+}
+h4 {
+  margin-top: 0px;
+  color: #FFA500;
+  max-height: 30px;
+  overflow: hidden;
+  /*text-align: left;*/
+}
+.bg-2 h4 {
+  color: black;
+  letter-spacing: 3px;
+  max-height: none;
+font-weight: bold;
+}
+.bg-2 p {
+  letter-spacing: 3px;
+
+}
+.img-responsive img{
+  width: 250px;
+  height: 450px;
+	width: 100%;
+  -webkit-filter: grayscale(40%);
+      -moz-filter:    grayscale(40%);
+      -ms-filter:     grayscale(40%);
+      -o-filter:      grayscale(40%);
+      filter: gray;
+}
+.container {
+	width: 100%;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding: 5px;
+}
+.btn-block {
+margin-top: 5px;
+}
+.saleoffrate{
+position: absolute;
+    top:10px;
+    left: 10px;
+padding-top: 13px;
+text-align:center;
+background-color: rgba(76, 174, 76,0.8);
+color: #FFFFFF;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+line-height: 13px;
+}
+
+@media (min-width: 384px) and (max-width: 768px) {
+
+  .img-responsive img{
+      max-width: 50%;
+  }
+  .img-responsive{
+      text-align: center;
+  }
+}
+
+.media
+    {
+        /*box-shadow:0px 0px 4px -2px #000;*/
+        margin: 20px 0;
+        padding:30px;
+
+
+    }
+.media    h6 {
+        color: grey;
+    }
+
+.dp
+    {
+        /*border:10px solid #eee;*/
+        transition: all 0.2s ease-in-out;
+    }
