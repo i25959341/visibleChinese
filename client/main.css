@@ -1,3 +1,5 @@
+
+
 body {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
@@ -49,7 +51,15 @@ body {
 }
 
 
+#mydiv {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 
+}
 
 /*.thumbnailFrame img:hover{
   width: 250px;
@@ -72,6 +82,7 @@ body {
       background-color: #1abc9c; /* Green */
       color: #ffffff;
       background-image: url("adding-users.jpg");
+      background-size: 100% auto;
       letter-spacing: 2px;
   }
   .bg-2 {
@@ -94,10 +105,19 @@ body {
   .bg-5 {
       color: #000000;
       margin:0px;padding:0px;overflow:hidden
+      height:100%
   }
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
+  }
+  .bg-6 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+      background-image: url("adding-users.jpg");
+      letter-spacing: 2px;
+      height: 1000px;
+      background-size: 100% auto;
   }
   .container-fluid.bg-2.text-center {
     padding-top: 30px;
@@ -113,7 +133,8 @@ body {
       margin-bottom: 0;
       font-size: 12px;
       letter-spacing: 3px;
-      background-image: url("static-light.jpg");
+      /*background-image: url("static-light.jpg");*/
+      background-color: black;
 
   }
   .navbar-nav {
