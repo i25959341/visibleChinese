@@ -1,0 +1,42 @@
+<template name="finance">
+  <div class="container-fluid bg-3 text-center">
+    <!-- <h2 class="margin">Presenting the Class of 2016: 50 of the brighest chinese entrepreneurs, breakout talents and leaders</h2><br> -->
+    <div class="row">
+      {{#each profile}}
+        {{> person}}
+      {{/each}}
+
+    </div>
+  </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center">
+      <!-- <h1 class="margin">About Us</h1> -->
+      <h4>Presenting the Class of 2016: the brightest young entrepreneurs, breakout talents and change agents in 10 sectors. </h4>
+      <p>A Guide to Achievers in the UK's Chinese Culture</p>
+    </div>
+
+  <!-- First Container -->
+  <div class="container-fluid bg-1 text-center">
+    <h3 class="margin">About Us</h3>
+    <!-- <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350"> -->
+    <h3>Visible Chinese is a guide to individuals at the forefront of the UK's Chinese Culture.</h3>
+    <!-- <p>Profiled individuals are included simply because they have contributed to the UK's Chinese Culture. </p> -->
+    <p>Visible Chinese aims to become an Authoritative Independent Listing of Achievers within the UK's Chinese Culture with the following mission statement:</p>
+    <dl>
+     <dt>1. To Be Comprehensive</dt>
+     <dd>Through all walks of life and subjects</dd>
+     <dt>2. To Operate with Integrity</dt>
+     <dd>Candidates are carefully screened and selected</dd>
+     <dt>3. To Provide Recognition</dt>
+     <dd>Profiles will inform, celebrate and inspire</dd>
+  </dl>
+  <p>If you believe you should be listed on Visible Chinese, please do apply for inclusion. We hope that being included will raise your professional profile, whilst also strengthening the presence of the Chinese Culture in the UK.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid bg-4 text-center">
+    <h4>Visible Chinese</h4>
+    <p>© 2016 Visible Chinese. All rights reserved. </p>
+  </footer>
+</template>
